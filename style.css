@@ -66,14 +66,13 @@ header{
 	display: flex;
 	background: rgba(0, 0, 0, 0.40); 
 	justify-content: center;
-	flex-wrap: wrap;
 }
 #main-nav{
 	width: 980px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
+	
 }
 #main-nav > :nth-child(1) img{
 	width: 120px;
@@ -83,7 +82,6 @@ header{
 	display: flex;
 	justify-content: space-between;
 	width: 680px;
-	flex-wrap: wrap;
 }
 #main-nav > :nth-child(2) a{
 	padding: 5px 0px;
