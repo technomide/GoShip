@@ -50,7 +50,7 @@ HEADER
 */
 header{
 	width: 100%;
-	background: url(dan-freeman-JldaU6D1VGs-unsplash.jpg)  no-repeat center/cover;
+	background: url(imageimg2.jpg)  no-repeat center/cover;
 }
 .gradient{
 	background: rgba(0, 0, 0, 0.20); 
@@ -151,6 +151,23 @@ header{
 	margin: 0px 12px 0px 7px;
 }
 
+#Dots{
+	display: flex;
+}
+.dot{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+}
+.dot.active{
+	width: 12px;
+	border: 1px solid #fff;
+	height: 12px;
+}
+
 /*
 ===========================================
 CONTAcT SECTION
@@ -161,7 +178,7 @@ CONTAcT SECTION
 }
 #Contact{
 	width: 100%;
-	background: url(NDj1jOLQ.png)  no-repeat center /cover;
+	background: url(./imageimg1.png)  no-repeat center /cover;
 }
 .gradient-contact{
 	background: rgba(0, 0, 0, 0.90); 
